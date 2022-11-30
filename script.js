@@ -12,7 +12,7 @@ import {
   isSameMonth,
   isSameDay,
 } from "date-fns";
-import { da } from "date-fns/locale";
+
 const datePickerBtn = document.querySelector(".date-picker-button");
 const datePicker = document.querySelector(".date-picker");
 const datePickerHeaderText = document.querySelector(".current-month");
